@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<aiml version="1.0">
+
+<category>
+<pattern>WHAT IS *</pattern>
+<template>
+<srai>WHAT IS <star/></srai>
+</template>
+</category>   
+
+<category>
+<pattern> HELLO ALICE </pattern>
+<template>Hello User!</template>
+</category>
+
+<category>
+<pattern> HI </pattern>
+<template>Hello User!</template>
+</category>
+
+<category>
+<pattern>YOUR NAME</pattern>
+<template>ot!</template>
+</category>
+
+<category>
+<pattern> SYMPTOMS OF * </pattern>
+<template>
+<srai>Symptoms of<star/></srai>
+</template>
+</category> 
+
+
+<category>
+<pattern>WHAT IS CANCER</pattern>
+<template>Cancer is the uncontrolled growth of abnormal cells in the body.Cancer develops when the body's normal control mechanism stops working.</template>
+</category>
+
+
+<!-- Category for month after birthday -->
+
+<category>
+<pattern>WHAT IS HYPOTHERMIA</pattern>
+<template>
+Hypothermia is a medical emergency that occurs when your body loses heat faster than it can produce heat, causing a dangerously low body temperature.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DIABETES</pattern>
+<template>
+Diabetes mellitus (DM), commonly referred to as diabetes, is a group of metabolic disorders in which there are high blood sugar levels over a prolonged period.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HEART-ATTACK</pattern>
+<template>
+A heart attack is the death of a segment of heart muscle caused by a loss of blood supply.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS JAUNDICE</pattern>
+<template>
+Jaundice is a yellow discoloration of the skin, mucous membranes, and the whites of the eyes caused by increased amounts of bilirubin in the blood
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS MALARIA</pattern>
+<template>
+Malaria is a mosquito-borne infectious disease affecting humans and other animals caused by parasitic protozoans (a group of single-celled microorganisms) belonging to the Plasmodium type.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DENGUE</pattern>
+<template>
+Dengue fever is a mosquito-borne tropical disease caused by the dengue virus.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HEPATITIS</pattern>
+<template>
+Viral hepatitis, including hepatitis A, hepatitis B, and hepatitis C, are a group of distinct diseases that affect the liver.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HIV</pattern>
+<template>
+The human immunodeficiency virus (HIV) is a lentivirus (a subgroup of retrovirus) that causes HIV infection and over time acquired immunodeficiency syndrome (AIDS).
+</template>
+</category>
+ 
+ <category>
+<pattern>SYMPTOMS OF HIV</pattern>
+<template>
+The symptoms of HIV can vary greatly from person to person. No two people with HIV will likely experience the exact same symptoms. However, HIV will generally follow this pattern:
+acute illness,asymptomatic period,advanced infection
+</template>
+</category>
+
+ <category>
+<pattern>SYMPTOMS OF MALARIA</pattern>
+<template>
+Common symptoms of malaria include:
+shaking chills that can range from moderate to severe,
+high fever,
+profuse sweating,
+headache,
+nausea,
+vomiting,
+abdominal pain
+diarrhea
+anemia
+muscle pain
+convulsions
+coma
+bloody stools
+</template>
+</category>
+
+ <category> 
+<pattern>SYMPTOMS OF HEPATITIS</pattern>
+<template>
+The most common symptoms of hepatitis are things like:
+Loss of appetite,
+Fatigue,
+Mild fever,
+Muscle or joint aches,
+Nausea and vomiting,
+Pain in your belly
+</template>
+</category>
+
+ <category> 
+<pattern>SYMPTOMS OF DENGUE</pattern>
+<template>
+Dengue fever causes a high fever — 104 F degrees — and at least two of the following symptoms:
+Headache,
+Muscle, bone and joint pain
+Nausea,
+Vomiting,
+Pain behind the eyes,
+Swollen glands,
+Rash
+</template>
+</category>
+
+<category> 
+	<pattern>SYMPTOMS OF DIABETES</pattern>
+	<template>
+		Hunger and fatigue,Peeing more often and being thirstier,
+		Dry mouth and itchy skin, Blurred vision
+	</template>
+</category>
+
+<category> 
+	<pattern>SYMPTOMS OF HYPOTHERMIA</pattern>
+	<template>
+		Shivering.
+		Slurred speech or mumbling.
+		Slow, shallow breathing.
+		Weak pulse.
+		Clumsiness or lack of coordination.
+		Drowsiness or very low energy.
+		Confusion or memory loss.
+		Loss of consciousness.
+</template>
+</category>
+
+
+</aiml>
